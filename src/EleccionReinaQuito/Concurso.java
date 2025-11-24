@@ -59,7 +59,7 @@ public class Concurso {
             return;
         }
 
-        // Constructor correcto: (idVoto, idCandidata)
+        // Constructor 
         Voto v = new Voto(idVotoAuto, idCandidata);
         idVotoAuto++;
 

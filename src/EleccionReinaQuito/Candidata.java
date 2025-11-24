@@ -28,7 +28,6 @@ public abstract class Candidata {
             throw new DatoInvalidoException("Puntaje jurado debe estar entre 0 y 100.");
     }
 
-    // getters y setters (solo los esenciales)
     public int getId() { return id; }
     public String getNombre() { return nombre; }
     public int getEdad() { return edad; }
